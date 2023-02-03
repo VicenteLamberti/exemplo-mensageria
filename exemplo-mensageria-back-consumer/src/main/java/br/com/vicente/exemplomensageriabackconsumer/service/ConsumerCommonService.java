@@ -15,7 +15,7 @@ public class ConsumerCommonService {
 			System.out.println("Estou verificando se tem em estoque");
 			Thread.sleep(5000);
 			System.out.println("Produto Adicionando no carrinho");
-			return "Produto Adicionando no carrinho";
+			return "Mensagem back: Chegou a requisição de que você está querendo um produto, mas foi necessário esperar 5 minutos para realizar o processo";
 		} catch (InterruptedException e) {
 			
 			e.printStackTrace();
@@ -31,7 +31,7 @@ public class ConsumerCommonService {
 			System.out.println("Estou processando o pagamento");
 			Thread.sleep(5000);
 			System.out.println("Pagamento Realizado");
-			return "Pagamento Realizado";
+			return "Mensagem back: Chegou a requisição de que você está querendo realizar o pagamento,  mas foi necessário esperar 5 minutos para realizar o processo";
 		} catch (InterruptedException e) {
 			
 			e.printStackTrace();
@@ -47,7 +47,7 @@ public class ConsumerCommonService {
 			System.out.println("Estou salvando a avaliação");
 			Thread.sleep(5000);
 			System.out.println("Avaliação salva");
-			return "Avaliação salva";
+			return "Mensagem back: Chegou a requisição de que você está querendo realizar a avaliação, mas foi necessário esperar 5 minutos para realizar o processo";
 		} catch (InterruptedException e) {
 			
 			e.printStackTrace();
