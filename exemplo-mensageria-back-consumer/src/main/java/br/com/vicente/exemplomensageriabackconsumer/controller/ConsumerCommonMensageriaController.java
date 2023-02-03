@@ -4,15 +4,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.vicente.exemplomensageriabackconsumer.service.CommonService;
+import br.com.vicente.exemplomensageriabackconsumer.service.ConsumerCommonService;
 
 @RestController
-@RequestMapping("/realizadorTarefas")
-public class CommonController {
+@RequestMapping("/realizadorTarefasMensageria")
+public class ConsumerCommonMensageriaController {
 
-	private final CommonService commonService;
+	private final ConsumerCommonService commonService;
 	
-	public CommonController(CommonService commonService) {
+	public ConsumerCommonMensageriaController(ConsumerCommonService commonService) {
 		this.commonService = commonService;
 	}
 	

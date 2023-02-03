@@ -8,11 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 @RequestMapping("/common")
-public class CommonController {
-	
-
-
-	
+public class ProducerCommonController {
 	
 	
 	@GetMapping("/produtos")
