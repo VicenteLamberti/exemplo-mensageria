@@ -1,11 +1,14 @@
-package br.com.vicente.exemplomensageriaback.service;
+package br.com.vicente.exemplomensageriabackconsumer.service;
 
 import org.springframework.stereotype.Service;
+
 
 @Service
 public class CommonService {
 	
-	public String selecioanrProduto() {
+
+	public String selecionarProduto() {
+
 		System.out.println("Selecionei o produto");
 	
 		try {
@@ -51,6 +54,5 @@ public class CommonService {
 			return "Ocorreu um problema salvar a avaliação";
 		}
 	}
-	
-	
+
 }
